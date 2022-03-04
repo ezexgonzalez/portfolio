@@ -1,0 +1,150 @@
+
+
+.title{
+    color: white;
+    font-size: 80px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    display: block;
+    height: 90px;
+
+}
+.subTitle{
+    color: rgb(173, 173, 173);
+    font-size: 25px;
+    display: block;
+    margin-top: 15px;
+}
+
+.resume{
+    color: rgb(173, 173, 173);
+    text-align: center;
+}
+
+.titleContainer{
+    width: 345px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.presentation{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+
+@media only screen and (max-width: 1020px) {
+  .presentation{
+    margin: 120px 50px 0px 0px;
+  }
+  .random{
+    width: 430px;
+  }
+}
+
+.resume{
+    width: 300px;
+    font-size: 17px;
+    
+}
+.mainButton{
+    border: none;
+    background-color: #7562e0;
+    width: 160px;
+    height: 50px;
+    border-radius: 5px;
+    margin-top: 20px;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.mainButton:hover{
+    opacity: 0.7;
+}
+.buttonIcon{
+    margin: 0px 0px 0px 5px;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+    align-items: center;
+}
+
+
+
+.scrollContainer{
+
+    display: flex;
+    color: white;
+    font-weight: 600;
+    align-items: center;
+    width: 160px;
+    height: 50px;
+    transition: 300ms;
+    position: absolute;
+    bottom: 60px;
+    cursor: pointer;
+}
+.scrollIcon{
+    width: 35px;
+    height: 35px;
+    color: #7562e0;
+    
+}
+.scrollContainer:hover{
+    padding-bottom: 5px;
+}
+.effect{
+    text-decoration: none;
+    color: white;
+    align-items: center;
+    display: flex;
+}
+
+.redes{
+   position: relative;
+    right: 150px;
+    color:#7562e0;
+    display: flex;
+    flex-direction: column;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 24px;
+}
+
+.pContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.link{
+    text-decoration: none;
+    color:#7562e0;
+    margin-bottom: 30px;
+    transition: 200ms;
+}
+
+.link:hover{
+    color: white;
+}
