@@ -33,7 +33,7 @@ export default function Card() {
                                 Tecnologias utilizadas: ReactJS, Redux, NodeJS, Express, Sequalize, PostgreSQL
                             </p>
                             <div className={s.buttonsContainer}>
-                                <a className={s.demoButton} target="_blank" rel="noreferrer" href="">Demo</a>
+                                <a className={s.demoButton} target="_blank" rel="noreferrer" href="https://github.com/ezexgonzalez/FoodAppPI">Demo</a>
                                 <a className={s.gitButton} href="https://github.com/ezexgonzalez/FoodAppPI" rel="noreferrer" target="_blank"><UilGithubAlt /></a>
                             </div>
                         </div>
