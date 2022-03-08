@@ -1,6 +1,8 @@
 import s from "./info.module.css";
 import foto from "./yo.jpg";
-import { UilImport } from '@iconscout/react-unicons';
+import { UilImport , UilMouseAlt, UilAngleDoubleDown } from '@iconscout/react-unicons';
+import { Link } from "react-scroll";
+
 export default function Info() {
 
     return (
@@ -23,6 +25,13 @@ export default function Info() {
                         </a>
 
                     </span>
+                </div>
+                <div className={s.scrollContainer}>
+                        <Link className={s.effect} activeClass="active" to="projects" spy={true} smooth={true} offset={50} duration={800}>
+                            <UilMouseAlt className={s.scrollIcon} />
+                            <span>Scroll Down</span>
+                            <UilAngleDoubleDown className={s.scrollIcon} />
+                        </Link>
                 </div>
             </div>
         </section>

@@ -1,12 +1,12 @@
 
 .sectionInfo{
-    background-color: #1c1c1c;
     color: white;
     align-items: center;
     display: flex;
     flex-direction: column;
     width: 100%;
     height: 100vh;
+    min-height: 960px;
 }
 
 .subTitle{
@@ -28,6 +28,8 @@
     align-items: center;
     display: flex;
     flex-direction: column;
+    position: relative;
+    padding: 1px;
 }
 .random{
     width: 270px;
@@ -38,7 +40,6 @@
     overflow: hidden;
     width: 270px;
     height: 270px;
-    background-color: #e0a562;
     border-radius: 200px;
     display: flex;
     justify-content: center;
@@ -101,3 +102,35 @@
 .downloadIcon{
     margin-left: .5rem;
 }
+
+
+.scrollContainer{
+
+    display: flex;
+    color: white;
+    font-weight: 600;
+    align-items: center;
+    width: 160px;
+    height: 50px;
+    transition: 300ms;
+    position: absolute;
+    bottom: -20px;
+    margin: 0 auto;
+    cursor: pointer;
+}
+.scrollIcon{
+    width: 35px;
+    height: 35px;
+    color: #7562e0;
+    
+}
+.scrollContainer:hover{
+    padding-bottom: 5px;
+}
+.effect{
+    text-decoration: none;
+    color: white;
+    align-items: center;
+    display: flex;
+}
+

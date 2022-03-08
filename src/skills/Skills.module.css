@@ -1,6 +1,6 @@
 
-.projects{
-    background-color: #1c1c1c;
+
+.skills{
     color: white;
     align-items: center;
     display: flex;
@@ -17,18 +17,61 @@
     text-align: center;
     display: inline-block;
 }
-
-.swiperContainer{
-    width: 57%;
-    min-width: 869px;
-    min-height: 37rem;
-    margin-top: 4rem;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    padding: 1px;
-    position: relative;
+.tooltip{
+    position: absolute;
+    display: none;
+    transition: 300ms all;
+    padding: 10px 15px;
+    border-radius: 6px;
+    font-weight: 600;
+    z-index: 100;
 }
+.iconsContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 40rem;
+    margin-top: 4rem;
+}
+
+.box{
+    position: relative;
+    padding: 1px;
+    transition: 300ms all;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 30px 40px;
+}
+.icon{
+    width: 8rem;
+    height: 8rem;
+    color: #7562e0;
+    transition: 300ms;
+}
+.box:hover .tooltip{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: rgb(46, 46, 46);
+    bottom: -45px;
+}
+
+.icon:hover{
+    color: white;
+}
+
+.fullContainer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 90%;
+    position: relative;
+    padding: 1px;
+}
+
 .scrollContainer{
 
     display: flex;

@@ -10,10 +10,10 @@ export default function Main() {
         <main id="main" className={s.main}>
             <div className={s.presentation}>
                <div className={s.redes}>
-                    <a className={s.link} target="_blank" href="https://www.linkedin.com/in/ezexgonzalez/">
+                    <a className={s.link} rel="noreferrer" target="_blank" href="https://www.linkedin.com/in/ezexgonzalez/">
                         <UilLinkedinAlt className={s.redIcon} />
                     </a>
-                    <a className={s.link} target="_blank" href="https://github.com/ezexgonzalez/">
+                    <a className={s.link} rel="noreferrer" target="_blank" href="https://github.com/ezexgonzalez/">
                         <UilGithubAlt />
                     </a>
                 </div> 

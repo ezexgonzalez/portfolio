@@ -1,0 +1,67 @@
+
+
+.slideContainer{
+    display: flex;
+    
+}
+
+.slideContainer img{
+    width: 300px;
+    border-radius: 10px;
+}
+
+.fotoMedical{
+   width: 300px;
+   height: 200px;
+}
+
+.parrafo{
+    width: 30rem; 
+    margin-left: 1rem;
+}
+
+.demoButton{
+    width: 7rem;
+    display: flex;
+    height: 3rem;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: .5rem;
+    text-decoration: none;
+    background-color: #7562e0;
+    font-weight: 600;
+    transition: 200ms;
+}
+
+.demoButton:hover{
+    background-color: white;
+    color: #7562e0;
+}
+
+.gitButton{
+    width: 4rem;
+    display: flex;
+    height: 3rem;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: .5rem;
+    text-decoration: none;
+    background-color: #7562e0;
+    font-weight: 600;
+    transition: 200ms;
+    margin-left: 1rem;
+}
+
+.gitButton:hover{
+    background-color: white;
+    color: #7562e0;
+}
+
+.buttonsContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
