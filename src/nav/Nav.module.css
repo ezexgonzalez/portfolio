@@ -32,3 +32,9 @@
     color: #7562e0;
     margin: 0px 0px 0px 80px;
 }
+
+@media only screen and (max-width: 845px){
+    .nav{
+        display: none;
+    }
+}

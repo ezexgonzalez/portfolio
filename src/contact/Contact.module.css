@@ -314,3 +314,38 @@
       transform: rotate(360deg);
     }
   }
+
+  @media only screen and (max-width: 845px){
+
+    .contact{
+        width: 100%;
+        height: 100vh;
+        min-height: 844px;
+    }
+
+    .contactCard{
+        width: 100%;
+        flex-direction: column;
+        height: 100vh;
+        min-height: 725px;
+    }
+    .info{
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .data{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .inputContainer{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .form{
+        width: 100%;
+    }
+
+  }

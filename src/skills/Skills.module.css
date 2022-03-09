@@ -101,3 +101,21 @@
     align-items: center;
     display: flex;
 }
+
+@media only screen and (max-width: 845px){
+
+    .fullContainer{
+        width: 100%;
+    }
+    .box{
+        margin: 40px 10px; 
+    }
+    .icon{
+        width: 6rem;
+        height: 6rem;
+    }
+    .iconsContainer{
+        width: 100%;
+        min-height: 375px;
+    }
+}

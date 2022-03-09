@@ -14,8 +14,8 @@ code {
     monospace;
 }
 
-.swiper-button-next { color: #7562e0  !important ;}
-.swiper-button-prev { color: #7562e0 !important ;}
+.swiper-button-next { color: #7562e03a  !important ;}
+.swiper-button-prev { color: #7562e03d !important ;}
 .swiper-pagination-bullet{
   background-color: antiquewhite !important;
 }
@@ -48,5 +48,13 @@ code {
 }
 
 
-
-
+@media only screen and (max-width: 845px){
+  .swiper{
+    min-width: 300px;
+    width: 100%;
+    height: 650px;
+  }
+ body{
+  width: fit-content;
+ }
+}

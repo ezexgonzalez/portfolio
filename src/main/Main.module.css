@@ -1,5 +1,6 @@
 
 
+
 .title{
     color: white;
     font-size: 80px;
@@ -39,14 +40,6 @@
 
 }
 
-@media only screen and (max-width: 1020px) {
-  .presentation{
-    margin: 120px 50px 0px 0px;
-  }
-  .random{
-    width: 430px;
-  }
-}
 
 .resume{
     width: 300px;
@@ -153,4 +146,49 @@
 
 .link:hover{
     color: white;
+}
+
+.redesMobile{
+    width: 100%;
+    justify-content: center;
+    display: flex;
+}
+
+.linkM{
+    text-decoration: none;
+    color:#7562e0;
+    transition: 200ms;
+    margin: 1rem 2rem 0 2rem;
+}
+.linkM:hover{
+    color: white;
+}
+
+@media only screen and (max-width: 845px){
+    .main{
+        width: 100%;
+        overflow: hidden;
+        background-color: antiquewhite;
+        
+    }
+    .title{
+        font-size: 60px;
+        width: 100%;
+        text-align: center;
+    }
+    .presentation{
+        min-height: 390px;
+        height: 100vh;
+        min-width: 100%;
+    }
+    .scrollContainer{
+        bottom: -150px;
+    }
+    .redes{
+        display: none;
+    }
+    .info{
+        margin: 0;
+    }
+    
 }
