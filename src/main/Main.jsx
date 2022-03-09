@@ -52,7 +52,7 @@ export default function Main() {
             </div>
             */
             }
-           {/*  <ScrollToTop /> */}
+            <ScrollToTop /> 
         </main>
     )
 

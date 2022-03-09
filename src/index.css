@@ -55,6 +55,6 @@ code {
     height: 650px;
   }
  body{
-  width: fit-content;
+  /* width: fit-content; */
  }
 }
