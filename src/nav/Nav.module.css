@@ -30,9 +30,11 @@
 
 .icon{
     color: white;
+    display: none;
 }
 .iconClose{
     color: white;
+    display: none;
 }
 .logo{
     font-size: 17px;
@@ -79,7 +81,7 @@
     }
     .buttonsContainer{
         display: flex;
-        position: relative;
+        position: absolute;
         width: 100%;
         flex-direction: column;
         margin: 0;
@@ -103,14 +105,16 @@
     .icon{
         margin-top: 30px;
         margin-right: 40px;
+        display: inline-block;
     }
     .iconClose{
+        display: inline-block;
         margin-top: 30px;
         margin-right: 40px;
         width: 25px;
         height: 25px;
     }
-    .logo{
+    .logo{ 
         margin-top: 30px;
         margin-left: 40px;
     }
