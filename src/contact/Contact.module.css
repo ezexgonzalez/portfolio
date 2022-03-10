@@ -9,6 +9,7 @@
     align-items: center;
     display: flex;
     flex-direction: column;
+    z-index: 1;
 }
 
 .contactCard{
@@ -17,6 +18,7 @@
     height: 35rem;
     margin-top: 5rem;
     display: flex;
+    z-index: 1;
 }
 
 .subTitle{

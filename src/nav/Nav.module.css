@@ -2,9 +2,12 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position:fixed;
+    position: fixed;
+    top: 0;
+    left: 0;
     width: 100%;
-    z-index: 999;
+    z-index: 9999999;
+  
 }
 .navButton{
     text-decoration: none;
@@ -25,7 +28,12 @@
     color: #7562e0;
 }
 
-
+.icon{
+    color: white;
+}
+.iconClose{
+    color: white;
+}
 .logo{
     font-size: 17px;
     font-weight: 600;
@@ -35,6 +43,75 @@
 
 @media only screen and (max-width: 845px){
     .nav{
-        display: none;
+        flex-direction: column;
+       align-items: center;
+       justify-content: flex-start;
+       
+    }
+    .navShow{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 9999999;
+        height: 100vh;
+        background-color: black;
+    }
+    .topNav{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        
+    }
+    .navButton{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin: 40px 0;
+    }
+    .spanText{
+        font-size: 2rem;
+    }
+    .buttonsContainer{
+        display: flex;
+        position: relative;
+        width: 100%;
+        flex-direction: column;
+        margin: 0;
+        margin-top: 2rem;
+        left: -100%;
+        transition:  300ms all ease;
+        
+    }
+    .showMenu{
+        display: flex;
+        position: relative;
+        width: 100%;
+        flex-direction: column;
+        margin: 0;
+        margin-top: 2rem;
+        left: -100%;
+        transition:  300ms all ease;
+        left: 0;
+        
+    }
+    .icon{
+        margin-top: 30px;
+        margin-right: 40px;
+    }
+    .iconClose{
+        margin-top: 30px;
+        margin-right: 40px;
+        width: 25px;
+        height: 25px;
+    }
+    .logo{
+        margin-top: 30px;
+        margin-left: 40px;
     }
 }
