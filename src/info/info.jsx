@@ -15,7 +15,7 @@ export default function Info() {
                             <img className={s.random} src={foto} alt="unpiberandom" />
                         </div>
                     </div>
-                    <span className={s.parrafo}>
+                    <div className={s.parrafo}>
                         Hola! Mi nombre es Ezequiel Gonzalez, nací en Buenos Aires, Argentina.
                         Soy Desarrollador Full Stack orientado al Front-end, con ganas de crecer en el mundo IT y profesionalmente.
 
@@ -24,7 +24,7 @@ export default function Info() {
                             <UilImport className={s.downloadIcon}/>
                         </a>
 
-                    </span>
+                    </div>
                 </div>
                 <div className={s.scrollContainer}>
                         <Link className={s.effect} activeClass="active" to="projects" spy={true} smooth={true} offset={50} duration={800}>

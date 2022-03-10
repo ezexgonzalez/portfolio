@@ -151,7 +151,8 @@
 .redesMobile{
     width: 100%;
     justify-content: center;
-    display: flex;
+    display: none;
+
 }
 
 .linkM{
@@ -167,8 +168,8 @@
 @media only screen and (max-width: 845px){
     .main{
         width: 100%;
+        min-height: 700px;
         overflow: hidden;
-        
     }
     .title{
         font-size: 60px;
@@ -176,7 +177,7 @@
         text-align: center;
     }
     .presentation{
-        min-height: 390px;
+        min-height: 200px;
         height: 100vh;
         min-width: 100%;
     }
@@ -188,6 +189,9 @@
     }
     .info{
         margin: 0;
+    }
+    .redesMobile{
+        display: flex;
     }
     
 }

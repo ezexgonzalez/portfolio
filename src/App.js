@@ -4,14 +4,16 @@ import Info from "./info/info";
 import Projects from "./projects/Projects";
 import Skills from "./skills/Skills";
 import Conctact from "./contact/Contact";
+import Background from "./background/Background";
 
 function App() {
   return (
     <div className="App">
+      <Background/>
       <Nav/>
       <Main/>
       <Info/>
-      <Projects/> 
+      <Projects/>  
       <Skills/>
       <Conctact/>
     </div>
