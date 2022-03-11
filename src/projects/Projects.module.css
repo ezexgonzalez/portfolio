@@ -64,7 +64,7 @@
 
     .projects{
        width: 100%;
-       
+       min-height: 800px;
     }
     .swiperContainer{
         width: 100%;

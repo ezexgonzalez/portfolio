@@ -137,7 +137,7 @@
 @media only screen and (max-width: 845px){
     .sectionInfo{
         height: 100vh;
-        min-height: 390px;
+        min-height: 700px;
     }
     .infoContainer{
         flex-direction: column;
