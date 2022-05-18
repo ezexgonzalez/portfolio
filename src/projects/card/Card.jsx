@@ -7,7 +7,8 @@ import TriviaFoto from "./triviafoto.jpg";
 import FoodApp from "./foodApp.jpg";
 import MedicalHub from "./medicalHub.jpg";
 import s from "./Card.module.css";
-import { UilGithubAlt } from '@iconscout/react-unicons'
+import { UilGithubAlt } from '@iconscout/react-unicons';
+import MeliChallenge from "./meliChallenge.png";
 
 export default function Card() {
 
@@ -65,6 +66,20 @@ export default function Card() {
                             <div className={s.buttonsContainer}>
                                 <a className={s.demoButton} target="_blank" rel="noreferrer" href="https://trivia-app-nu.vercel.app/">Demo</a>
                                 <a className={s.gitButton} href="https://github.com/ezexgonzalez/TriviaApp" rel="noreferrer" target="_blank"><UilGithubAlt /></a>
+                            </div>
+                        </div>
+                    </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                    <div className={s.slideContainer}>
+                        <img className={s.foto} src={MeliChallenge} alt="meli" />
+                        <div>
+                            <h3>Mercado Libre Challenge Front (React)</h3>
+                            <p className={s.parrafo}>Replica de la pagina del detalle de venta de un Auto en Mercado Libre Challenge Front End.
+                            </p>
+                            <div className={s.buttonsContainer}>
+                                <a className={s.demoButton} target="_blank" rel="noreferrer" href="https://me-li-challenge.vercel.app/">Demo</a>
+                                <a className={s.gitButton} href="https://github.com/ezexgonzalez/MeLi-Challenge" rel="noreferrer" target="_blank"><UilGithubAlt /></a>
                             </div>
                         </div>
                     </div>

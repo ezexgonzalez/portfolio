@@ -20,7 +20,7 @@ export default function Main() {
                 <div className={s.info}>
                     <div className={s.titleContainer}>
                         <span className={s.title}>Ezequiel</span>
-                        <span className={s.title}>Gonzalez</span>
+                        <span className={s.title2}>Gonzalez</span>
                         <span className={s.subTitle}>Full Stack Developer</span>
                     </div>
                     <div className={s.redesMobile}>

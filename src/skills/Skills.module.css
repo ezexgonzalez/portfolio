@@ -48,7 +48,7 @@
 .icon{
     width: 8rem;
     height: 8rem;
-    color: #7562e0;
+    color: rgb(133,31,243);
     transition: 300ms;
 }
 .box:hover .tooltip{
@@ -89,7 +89,7 @@
 .scrollIcon{
     width: 35px;
     height: 35px;
-    color: #7562e0;
+    color: rgb(133,31,243);
     
 }
 .scrollContainer:hover{
@@ -106,7 +106,10 @@
 
     .fullContainer{
         width: 100%;
-        margin-top: 5rem;
+        margin: 0;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
     }
     .skills{
         min-height: 700px;
@@ -122,5 +125,12 @@
     .iconsContainer{
         width: 100%;
         min-height: 375px;
+        margin: 0;
+
     }
+    .scrollContainer{
+        margin: 0;
+        bottom: -20px;
+    }
+    
 }

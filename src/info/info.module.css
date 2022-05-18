@@ -51,7 +51,7 @@
     overflow: hidden;
     width: 300px;
     height: 300px;
-    background-color: #7562e0;
+    background: rgb(133,31,243);
     border-radius: 200px;
     margin-bottom: 90px;
     display: flex;
@@ -78,7 +78,8 @@
 .cvButton{
     width: 11rem;
     height: 3rem;
-    background-color: #7562e0;
+    background: rgb(133,31,243);
+    background: linear-gradient(90deg, rgba(133,31,243,1) 0%, rgba(238,8,165,1) 100%);
     border: none;
     border-radius: .3rem;
     color: white;
@@ -94,8 +95,7 @@
 }
 
 .cvButton:hover{
-    background-color: white;
-    color: #7562e0;
+    opacity: 0.6;
 }
 
 
@@ -121,7 +121,7 @@
 .scrollIcon{
     width: 35px;
     height: 35px;
-    color: #7562e0;
+    color: rgba(133,31,243,1);
     
 }
 .scrollContainer:hover{

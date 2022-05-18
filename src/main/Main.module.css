@@ -10,6 +10,17 @@
     height: 90px;
 
 }
+
+.title2{
+    background: -webkit-linear-gradient(0deg, rgba(133,31,243,1) 0%, rgba(238,8,165,1) 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 80px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    display: block;
+    height: 90px;
+}
 .subTitle{
     color: rgb(173, 173, 173);
     font-size: 25px;
@@ -48,7 +59,8 @@
 }
 .mainButton{
     border: none;
-    background-color: #7562e0;
+    background: rgb(133,31,243);
+    background: linear-gradient(90deg, rgba(133,31,243,1) 0%, rgba(238,8,165,1) 100%);
     width: 160px;
     height: 50px;
     border-radius: 5px;
@@ -61,11 +73,11 @@
     font-size: 15px;
     font-weight: 600;
     letter-spacing: 1px;
-    transition: 250ms;
+    transition: 250ms all;
+  
 }
 .mainButton:hover{
-    color: #7562e0;
-    background-color: white;
+    opacity: 0.6;
 }
 .buttonIcon{
     margin: 0px 0px 0px 5px;
@@ -101,7 +113,7 @@
 .scrollIcon{
     width: 35px;
     height: 35px;
-    color: #7562e0;
+    color: rgb(133,31,243);
     
 }
 .scrollContainer:hover{
@@ -139,7 +151,7 @@
 
 .link{
     text-decoration: none;
-    color:#7562e0;
+    color:rgba(133,31,243,1);
     margin-bottom: 30px;
     transition: 200ms;
 }

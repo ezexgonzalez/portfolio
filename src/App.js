@@ -9,7 +9,7 @@ import Background from "./background/Background";
 function App() {
   return (
     <div className="App">
-      <Background/>
+      <Background/> 
       <Nav/>
       <Main/>
       <Info/>

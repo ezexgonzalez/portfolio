@@ -11,8 +11,15 @@
 }
 .navButton{
     text-decoration: none;
-    color: black;
     margin: 0px 20px 0px 0px;
+    padding: 5px 10px;
+    transition: 300ms;
+}  
+
+.navButton:hover{
+    background-color: rgba(59, 59, 59, 0.418);
+    border-radius: 5px;
+    cursor: pointer; 
 }
 .buttonsContainer{
     margin: 50px 80px 25px 0px;
@@ -22,11 +29,8 @@
     font-weight: 500;
     color: rgb(226, 226, 226);
     transition: 0.1s;
-    cursor: pointer;
 }
-.spanText:hover{
-    color: #7562e0;
-}
+
 
 .icon{
     color: white;
@@ -38,8 +42,10 @@
 }
 .logo{
     font-size: 17px;
-    font-weight: 600;
-    color: #7562e0;
+    font-weight: 700;
+    background: -webkit-linear-gradient(0deg, rgba(133,31,243,1) 0%, rgba(238,8,165,1) 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
     margin: 0px 0px 0px 80px;
 }
 

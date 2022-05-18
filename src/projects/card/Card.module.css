@@ -29,14 +29,14 @@
     color: white;
     border-radius: .5rem;
     text-decoration: none;
-    background-color: #7562e0;
+    background: rgb(133,31,243);
+    background: linear-gradient(90deg, rgba(133,31,243,1) 40%, rgba(238,8,165,1) 100%);
     font-weight: 600;
     transition: 200ms;
 }
 
 .demoButton:hover{
-    background-color: white;
-    color: #7562e0;
+    opacity: 0.7;
 }
 
 .gitButton{
@@ -48,15 +48,15 @@
     color: white;
     border-radius: .5rem;
     text-decoration: none;
-    background-color: #7562e0;
+    background: rgb(133,31,243);
+    background: linear-gradient(90deg, rgba(133,31,243,1) 30%, rgba(238,8,165,1) 100%);
     font-weight: 600;
     transition: 200ms;
     margin-left: 1rem;
 }
 
 .gitButton:hover{
-    background-color: white;
-    color: #7562e0;
+    opacity: 0.7;
 }
 
 .buttonsContainer{
