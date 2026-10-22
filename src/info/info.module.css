@@ -31,42 +31,19 @@
     position: relative;
     padding: 1px;
 }
-.random{
-    width: 270px;
-    height: 450px;
-    margin-top: 4rem;
-}
-.recorte{
-    overflow: hidden;
-    width: 270px;
-    height: 270px;
-    border-radius: 200px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-}
-
-.retrato{
-    overflow: hidden;
-    width: 300px;
-    height: 300px;
-    background: rgb(133,31,243);
-    border-radius: 200px;
-    margin-bottom: 90px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 .infoContainer{
     display: flex;
-    height: 300px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
 }
 
 .parrafo{
     font-size: 1.6rem;
-    width: 50rem;
-    height: 300px;
+    width: 100%;
+    max-width: 50rem;
+    padding: 0 1rem;
+    box-sizing: border-box;
     text-align: center;
     display: flex;
     align-items: center;
@@ -139,31 +116,12 @@
         height: 100vh;
         min-height: 700px;
     }
-    .infoContainer{
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        height: 600px;
-        min-width: 290px;
-    }
-    .retrato{
-        width: 260px;
-        height: 260px;
-        margin-bottom: 0;
-    }
-    .recorte{
-        width: 240px;
-        height: 240px;
-    }
-    .random{
-        width: 240px;
-        height: 380px;
+    .aboutCard{
+        width: 100%;
     }
     .parrafo{
         font-size: 1.2rem;
-        width: 350px;
-        min-width: 290px;
-        height: 300px;
+        max-width: 350px;
     }
 }
 
@@ -171,12 +129,6 @@
 @media only screen and (max-width: 345px){
     .parrafo{
         font-size: 1.1rem;
-        min-width: 300px;
-        width: 100%;
-    }
-
-    .infoContainer{
-        min-width: 230px;
         width: 100%;
     }
 
